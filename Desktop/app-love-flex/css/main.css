@@ -1,0 +1,113 @@
+body {
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.71429;
+  background-color: #fff;
+  /* Enlaza la tipografia Open Sans */
+}
+/*flex-box container*/
+.flex-container{
+	display: flex;
+}
+a {
+  color: #373B47;/*plomo oscuro*/
+  text-decoration: none;
+}
+
+a:hover {
+  color: #E95853; /*rosado*/
+}
+.link{
+  font-weight: 700;
+  padding: 21px;
+}
+
+/*menú*/
+.menu{
+	background-color: white;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+.menu.flex-container{
+	justify-content: flex-start;
+}
+.logo-container{
+	margin-left: auto;
+	margin-right: 20px;
+}
+.flex-container .logo{
+	width: 70px;
+	height: 70px;
+	margin-left: auto;
+	margin-right: 20px;
+	
+}
+/*sección portada we are applove from heart*/
+#home{
+	height: 600px;
+	margin-top: 70px;
+	background-image: url(../assets/images/bg-home.jpg);
+	background-position:center;
+	background-size:cover;
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	justify-content:center;
+	align-items: center; /*alinea al centro junto con justify, de esta amnera los elementos horizontales y verticales quedan alineados al centro.*/
+	flex-direction:column; /*orientación vertical*/
+	color: whitesmoke;
+}
+
+.text-home{
+	font-size: 2.4em;
+}	
+/*botón home section*/
+.btn-home{
+  background: #2Ecc71;
+  color: #fff;
+  padding: 11px 20px;
+  font-weight: 500px;
+  text-transform: uppercase;
+  margin-top: 63px;
+  font-size: 14px;
+  border-radius: 2px;
+}
+/*services*/
+#services{
+	background-color: #F17C72;
+	text-align: center;
+	color: #FFF;
+	padding: 70px;
+}
+#services.flex-container{
+	justify-content: space-around;/*los elementos se distribuyen en pantalla dejando un espacio entre ellos*/
+	flex-wrap: wrap;/*los elementos no se ven forzados a desplegarse en una sola línea*/
+}
+.box-services{
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+/*estilos footer*/
+footer{
+  height: 70px;
+  background-color: #373b47;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+span{
+
+  color: white;
+  font-size: 16px;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+
+
+.fa-heart{
+    color: white;
+    margin: 0 3px;
+    font-size: 13px;
+}
