@@ -1,0 +1,38 @@
+body{
+	
+	background-image: url(../img/back2.jpg);
+	background-size: 100%;
+}
+.container{
+	background-color: black;
+	color: #FFA000;
+	font-family: 'Rubik', sans-serif;
+}
+h1{
+	text-align: center;
+	margin-top: 0;
+	padding: 40px;
+}
+form{
+	text-align: center;
+	background-color: #2C2D2D;
+	color: #FAF9F3;
+	border-radius: 5px;
+}
+input[type=text]:not(.browser-default){
+	width: 70%;
+	border:none;
+
+}
+div form input:focus{
+	border-bottom: none;
+	text-decoration:none;
+
+}
+.center{
+	text-align: center;
+}
+button:hover{
+	background-color: #FCE55E;
+	color: black;
+}
