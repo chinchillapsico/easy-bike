@@ -24,15 +24,26 @@ input[type=text]:not(.browser-default){
 	border:none;
 
 }
-div form input:focus{
-	border-bottom: none;
-	text-decoration:none;
-
-}
 .center{
 	text-align: center;
 }
 button:hover{
 	background-color: #FCE55E;
 	color: black;
+}
+
+#listTask input[type=checkbox] {
+  margin-right: 10px;
+}
+
+#listTask {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#listTask li {
+  padding: 20px 20px;
+  border-bottom: 1px solid #EEEEEE;
+  clear: both;
 }
