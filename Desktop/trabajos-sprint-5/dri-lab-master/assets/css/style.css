@@ -1,0 +1,255 @@
+
+/*Estilos Generales*/
+
+*{
+	margin: 0 auto;
+	padding: 0 auto;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Gudea', sans-serif;
+	background-color: #f4f4f4;
+	color: #a1a1a1;
+}
+
+/*Estilos Navbar*/
+
+.navbar{
+	background-color: #333333;
+	border: none;
+}
+
+.logo-navbar{
+	width: 100px;
+	margin-top: 8px;
+}
+
+.navbar-collapse{
+	margin-top: 12px;
+}
+
+li a:hover{
+	color: #333333;
+}
+
+.navbar-toggle{
+	border: none;
+}
+
+.navbar-left{
+	margin-top: -9px;
+}
+
+/*Estilos perfil*/
+
+.contenedor-perfil{
+	background-color:white;
+	padding: 0;
+	border-radius: 10px;
+	margin-left: 50px;
+}
+
+.h5-perfil{
+	color:#b3a59b;
+	font-size: 16px;
+}
+
+hr{ 
+    margin: 0;
+}
+
+.primera-parte{
+	text-align: center;
+	padding: 10px 30px;
+}
+
+.img-perfil{ 
+	border-radius: 60px; 
+	text-align: center;
+	width: 100px;
+	height: 100px;
+}
+
+#boton-hire{ 
+	border-radius: 4px;
+	background-color: #7bbb5e;
+	border-style: none;
+	color: white;
+	height: 30px;
+	width: 100px;
+}
+
+#sobre{
+	color: white;
+}
+
+.cuidad{
+	color: #b3a59b;
+}
+
+.cuidad:hover{
+	color: #000000;
+}
+
+.segunda-parte{
+	padding: 10px 30px;
+}
+.botones-skills{
+	border: 1px solid #b3a59b;
+	border-radius: 5px;
+	padding: 3px;
+	background-color: transparent;
+	margin: 5px;
+}
+
+.botones-skills:hover{
+	border: 1px solid #b3a59b;
+	border-radius: 5px;
+	padding: 3px;
+	background-color: transparent;
+	margin: 5px;
+	color: #3a9ad3;
+}
+
+.tercera-parte{
+	padding: 10px 30px;
+}
+
+.fa{
+	color: #b3a59b;
+	font-size: 20px;
+}
+	
+.fa:hover{
+	color: #484848;
+	font-size: 20px;
+}
+
+/*Estilos cuadro de imagenes*/
+
+section{
+	background-color: transparent;
+}
+
+.box-project{
+	background-color: white;
+	border: 10px solid #f4f4f4;;
+	padding: 10px;
+}
+
+.box-project span, i{
+	color:#BDBDBD;
+	margin: 5px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.box-project:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: #6E6E6E;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 1.2em;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.allimgbox{
+	margin-left: 50px;
+}
+
+/*Estilos Footer*/
+
+#contenedor{
+	padding-top: 30px;
+}
+
+.logofooter{
+	width: 83px;
+}
+
+.contenedor-iconos{
+	padding: 0px;
+}  
+
+.footer-ul {
+	list-style: none;
+}
+
+
+a:link{
+	text-decoration: none;
+}
+
+.iconos{
+    display: inline-block;
+    margin: 13px;
+    font-size: 24px;
+}
+
+.job{
+	margin-left: 48px;
+	margin-top: 10px;
+}
+
+.contenedor-imagen{
+	display: flex;
+	margin-top: 15px;
+}
+
+.imagen-better-fantasy{
+    width: 50px;
+    height: 50px;
+}
+
+.text{
+	padding-top: 20px;
+}
+
+.overtime{
+    width: 130px;
+    height: 100px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.lista{
+	margin-top: 10px;
+}
+
+.color-text{
+	color: #999999;
+}
+
+.listen{
+    margin-top: 16px;
+    margin-left: 17px;
+}
+
+#number{
+	display: inline-block;
+	color: black;
+	padding-left: 10px;
+}
+
+.p{
+	font-size: 15px;
+    padding-left: 6px;
+}
